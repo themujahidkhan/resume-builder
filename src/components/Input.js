@@ -20,7 +20,7 @@ export function InputTextArea(props) {
     <textarea
       className="bg-[#efefef]  p-4"
       rows="10"
-      cols="40"
+      cols="48"
       placeholder={props.placeholder}
       onChange={props.onchange}
     >
