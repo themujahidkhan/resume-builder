@@ -21,6 +21,7 @@ function Resume() {
   const [jobRole, setJobRole] = useState("");
   const [startDate, setStartDate] = useState("");
   const [endDate, setEndDate] = useState("");
+
   function setUserName(e) {
     setName(e.target.value);
   }
